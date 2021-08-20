@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/manhinh"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ung Dung Be Hoc Toan"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="#E80E0E"
+        android:layout_gravity="center"
+       />
+    <EditText
+        android:id="@+id/edt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap so thu nhat"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="70dp"
+        />
+    <EditText
+        android:id="@+id/edt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap so thu hai"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/tvKetqua"
+        android:textColor="#F81515"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"
+        android:text="0"
+        android:textSize="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:textSize="20dp"
+            android:padding="10dp"
+            android:id="@+id/buttoncong"
+            android:text=" + "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:layout_marginLeft="100dp"
+            android:textSize="20dp"
+            android:padding="10dp"
+            android:id="@+id/buttontru"
+            android:text=" - "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:textSize="20dp"
+            android:padding="10dp"
+            android:id="@+id/buttonnhan"
+            android:text=" x "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:layout_marginLeft="100dp"
+            android:textSize="20dp"
+            android:padding="10dp"
+            android:id="@+id/buttonchia"
+            android:text=" / "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/hinhnen"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="250dp"/>
+</LinearLayout>
